@@ -37,4 +37,5 @@ body:
     id: contact
     attributes:
       label: Preferred private contact
+      description: Or email us directly at iron8dao@gmail.com
       placeholder: Telegram @handle or email
