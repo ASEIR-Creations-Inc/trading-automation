@@ -202,6 +202,8 @@ Open a **[project inquiry](https://github.com/ASEIR-Creations-Inc/trading-automa
 with a short description of your strategy and where you trade. We reply with questions, a
 scope and a quote.
 
+See live previews on our Telegram channel: **[t.me/Asiertradingpreview](https://t.me/Asiertradingpreview)**
+
 Also from ASEIR Creations: **[KEYPOS](https://github.com/ASEIR-Creations-Inc/keypos)**, an
 offline-first point of sale with a tamper-proof audit trail.
 
