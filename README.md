@@ -204,7 +204,7 @@ scope and a quote.
 
 Or reach us directly: **iron8dao@gmail.com** · X / Twitter: **[@Aseircreations](https://x.com/Aseircreations)**
 
-See live alert previews on our Telegram channel: **[Aseir Trading](https://t.me/Asiertradingpreview)**
+See live alert previews on our Telegram channel: **[Aseir Trading](https://t.me/Aseirtradingpreview)**
 
 Also from ASEIR Creations: **[KEYPOS](https://github.com/ASEIR-Creations-Inc/keypos)**, an
 offline-first point of sale with a tamper-proof audit trail.
