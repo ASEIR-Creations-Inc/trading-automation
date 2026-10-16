@@ -1,0 +1,14 @@
+{
+  "account": "$20, 3% risk, 5x, 10% max margin per position",
+  "costs": "taker 0.05% + live half-spread per side + funding 0.01%/8h",
+  "data": "56edf65b75780346",
+  "entry_body_pct": 5.0,
+  "exit": "trail arm +2R, hold 0.5R",
+  "extend_pct": 4.0,
+  "fill_resolution": "15m",
+  "max_entry_slip_r": 0.1,
+  "min_stop_pct": 0.7,
+  "sma": 50,
+  "strategy": "SMA50 pullback (ASEIR sample strategy)",
+  "timeframe": "2h"
+}

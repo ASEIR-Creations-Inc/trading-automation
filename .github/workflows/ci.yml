@@ -1,0 +1,20 @@
+name: aseir-stamp CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install pytest ./stamp
+      - run: pytest -q stamp
+      - run: aseir-stamp verify examples/stamp-settings.json 2f8e8943959c

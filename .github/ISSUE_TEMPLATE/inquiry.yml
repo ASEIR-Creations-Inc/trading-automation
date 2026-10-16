@@ -1,0 +1,40 @@
+name: Project inquiry
+description: Tell us about the trading system you want built, integrated or maintained.
+title: "Inquiry: "
+labels: ["inquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. Keep it high level here, because issues are public.
+        We will move details (and an NDA, if you want one) to a private channel.
+  - type: dropdown
+    id: service
+    attributes:
+      label: What do you need?
+      multiple: true
+      options:
+        - Alerts with setup charts in Telegram
+        - Backtest with trade explorer
+        - Execution on a demo / live account
+        - Account health monitoring
+        - Ongoing operations for an existing system
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Exchange or broker
+      placeholder: Binance futures, Bybit, MT5 broker, ...
+  - type: textarea
+    id: idea
+    attributes:
+      label: The strategy, in a few sentences
+      description: No proprietary details needed at this stage.
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Preferred private contact
+      placeholder: Telegram @handle or email

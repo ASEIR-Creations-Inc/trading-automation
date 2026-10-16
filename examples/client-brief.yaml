@@ -1,0 +1,40 @@
+# ASEIR Creations · strategy brief
+# Fill in what you can. Plain language is fine; we turn it into exact rules with you.
+
+strategy:
+  name: "My breakout"
+  idea: >
+    Describe the setup the way you would explain it to another trader:
+    what has to happen, in what order, and what makes you take the trade.
+  entry: "e.g. close above the 20-bar high after a pullback to the 50 EMA"
+  stop: "e.g. below the pullback low"
+  exit: "e.g. 2R target, or trail under each higher low"
+  filters: "e.g. only when BTC is above its 200-day average; skip weekends"
+  example_setups: "links or screenshots of past trades you would have taken"
+
+markets:
+  venue: "Binance futures / Bybit / OKX / MT5 broker / other"
+  symbols: "e.g. BTC, ETH, SOL, or 'top 50 by volume'"
+  timeframes: "e.g. setup on 4h, entry on 15m"
+  sessions: "e.g. 24/7, or London + New York only"
+
+alerts:
+  when: "before entry / at entry / at exit / all"
+  chart_should_show: "e.g. the levels, the pullback, volume, a higher-timeframe panel"
+  destination: "private chat / Telegram channel / Discord"
+
+execution:
+  mode: "alerts only / demo account / live after demo"
+  risk_per_trade: "e.g. 1% of equity"
+  max_leverage: "e.g. 5x"
+  max_open_positions: "e.g. 5"
+  daily_loss_limit: "e.g. stop for the day at -3%"
+
+reporting:
+  health_report: "e.g. every 4h and at daily close"
+  contents: "equity, open positions, fees, drawdown, ..."
+
+backtest:
+  period: "e.g. last 12 months"
+  costs: "your exchange fee tier, if known"
+  questions: "what you most want the backtest to answer"
